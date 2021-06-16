@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(88, 87, 87);
+}
+body {
+    font-family: 'Gilroy';
+}
+.def_width{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.wrapper{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -45px;
+    margin-left: 33px;
+    background-color: white;
+    height: 1100px;
+    width: 1300px;
+}
+.top_sides{
+    display: flex;
+    align-items: flex-start;
+    height: 300px;
+    margin-bottom: 700px;
+}
+.side_left{
+    margin-bottom: 700px;
+    width: 400px;
+}
+.side_right{
+    width: 30pc;
+    margin-bottom: 590px;
+    justify-content: space-between;
+    grid-gap:24px;
+}
+.img_products{
+    width: 300px;
+    padding-left: 20px;
+}
+.side_bottom {
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
+    margin-bottom: 160px;
+    margin-left: -900px;
+    font-size: 25px;
+    grid-gap:24px;
+    outline: none;
+}
+.img_bottom{
+    height: 140px;
+    transition: .4s ease;
+    margin-left: 10px;
+    
+}
+.img_bottom:hover{
+    transform: scale(1.1);
+}
+.h3_side_bottom{
+    font-size: 45px;
+    color: blue;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.price{
+    color: blue;
+    font-size: 20px;
+}
+.main_name{
+    font-size: 50px;
+}
+.description{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
